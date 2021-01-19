@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0dde8b7d98.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body style="background: #d3d3d3;">
+  <body style="background: #d3d3d3;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navmenu">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GL Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="profile">
+        <div class="topname">
+          <p>
+          <h3>Name of Category: </h3>
+          <br>
+          <input class="selinput" id="catname" type="text" size="2" name="Name" placeholder="Name of category.">
+          <br>
+        </div>
+        <div class="profile_skills">
+            <p>
+            <h3>Description: </h3>
+            <br>
+            <textarea class="selinput" clasname="Description" id="" cols="2" rows="10" placeholder="Describe what's your category about." ></textarea>
+            <br>
+        </div>
+        <div class="profile_skills">
+            <p>
+            <h3>Category Rules: </h3>
+            <br>
+            <textarea class="selinput" name="Rules" cols="2" rows="10" placeholder="List the rules of the category that are unique to this category."></textarea>
+            <br>
+        </div>
+        <div class="profile_skills">
+          <h3>Background Image</h3>
+          <input class="selinput" type="file" id="img" name="image" accept="image/*" >
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary">Submit</button>
+            <br>
+          </div>
+
+
+        </div>
+</body>
+</html>
